@@ -14,10 +14,8 @@ for x in l:
         ocount+=1
     if x<Min:
         Min=x
-    elif x>Max:
+    if x>Max:
         Max=x
-    else:
-        continue
 print("Largest:",Max)
 print("Smallest:",Min)
 print("Sum:",s)
